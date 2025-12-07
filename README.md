@@ -39,6 +39,14 @@ python calculator.py
 python gui.py
 ```
 
+### AED → INR Live GUI
+
+```bash
+python aed_gui.py
+```
+
+The AED GUI shows the latest AED→INR rate, allows manual refresh, auto-refresh at a chosen interval, and saving the current rate to a CSV file.
+
 The GUI provides buttons for digits and operators and an entry field for the expression. Press `=` to evaluate, or `C` to clear.
 
 Example session:
@@ -74,6 +82,8 @@ pytest -v tests/
 .
 ├── calculator.py      # Main calculator module
 ├── gui.py             # Simple Tkinter GUI for the calculator
+├── aed_to_inr.py      # Script to fetch live AED -> INR exchange rate
+├── requirements.txt   # Minimal Python dependencies (requests)
 ├── tests/
 │   └── test_calculator.py  # Unit tests
 ├── README.md           # This file
