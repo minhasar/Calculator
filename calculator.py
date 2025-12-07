@@ -1,6 +1,8 @@
 """
 Simple Python Calculator
 Supports basic arithmetic operations: addition, subtraction, multiplication, division
+
+Created: December 7, 2025
 """
 
 
